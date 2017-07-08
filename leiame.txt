@@ -1,0 +1,56 @@
+   #===========================================================================================#
+   |                       Algoritmos e Estruturas de Dados III - TP2    
+   |                                                
+   |                                          Implementação do Seam Carving para o 
+   |										    redimensionamento de imagens
+   |                                          	      
+   #============================================================================================#
+    
+   Autores:
+	Isabella Vieira Ferreira
+	Mônica Neli de Resende   
+
+
+   #=============================================================================================#
+   |                                     Organização desse documento                            
+   #=============================================================================================#
+   |                                                                                                                     
+   |    1. Introdução                                         				   
+   |    2. Procedimento de execução             
+   #=============================================================================================#
+
+
+   #=============================================================================================#
+   |   1.Introdução                                                                                           
+   #=============================================================================================#
+   |    	
+   |  	Este programa foi escrito em liguagem C, e tem como principal objetivo o redimensionamento
+   |  de imagens.
+   |
+   |	O código foi desenvolvido no Sistema Operacional Linux - Ubuntu 10.04 32 bits. 
+   | 
+   |      
+   |                                                                                                      
+   #=============================================================================================#
+ 
+   #==============================================================================================#
+   |   2.Procedimento de execução                            
+   #==============================================================================================#
+   |                                                             
+   |      
+   |	Para juntar os módulos do projeto e compilá-los foi desenvolvido um Makefile.
+   |	Para compilar o trabalho é preciso entrar na pasta e digitar o seguinte comando no terminal: 
+   |										make
+   |	
+   | 	Após a compilação, para executar o programa é preciso digitar no terminal: 
+   |
+   |	./tp2 arquivo-de-entrada.ppm <entrategia> <tipo-de-operacao> <quantidade>    
+   |	
+   |	Sendo:
+   |	- <estrategia> é G para a solução baseada em grafos e D para a solução baseada em programação dinâmica;
+   |    - <tipo-de-operacao> é -h para retirar linhas e  -w para retirar colunas;
+   |    - <quantidade> quantidade de linhas ou colunas (dependendo da operação) a serem retiradas.
+   |
+   |	Para fazer uma limpeza do projeto compilado digite: make clean
+   |
+   #=============================================================================================#
